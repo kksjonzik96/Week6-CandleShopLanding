@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+}
+.intro-image  {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, rgba(124, 148, 175, 0.377) , rgba(61, 39, 39, 0.432)) , 
+    url('/img/handmadecandels.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.intro-image__text a{
+    background-color: #9ea18e85;
+    border: 2px solid #0f11111e;
+    color: #6b5441;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+.intro-text {
+    background-color: rgb(99, 82, 82);
+    height: 700px;
+    margin-top: -6rem;
+    text-align: center;
+    padding-top: 5rem;
+    clip-path: polygon(50% 5%, 100% 0, 100% 80%, 84% 84%, 63% 89%, 31% 95%, 0 100%, 0 0);
+}
+.heading-solid {
+    color: #f5f5f5;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}
+.intro-text__textbox p{
+    color: #d9e2e2;;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+.packaging-image{
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, rgba(124, 148, 175, 0.377) , rgba(61, 39, 39, 0.432)) , 
+    url('/img/package.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -19rem;
+    margin-bottom: -3rem;
+}
+.packaging-image__text a{
+    margin-top: 17rem;
+    background-color: rgba(182, 161, 141, 0.527);
+    border: 2px solid #0f11111e;
+    color: #4b3d33;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+.packaging-text{
+    background-color: rgb(182, 161, 141);
+    height: 700px;
+    margin-top: -6rem;
+    text-align: center;
+    padding-top: 5rem;
+    clip-path: polygon(50% 5%, 100% 0, 100% 80%, 84% 84%, 63% 89%, 31% 95%, 0 100%, 0 0);
+}
+.packaging-text h3{
+    color: #f5f5f5;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+}
+
+.packaging_text__textbox p{
+    color: #d9e2e2;;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+.tutorials-image{
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, rgba(124, 148, 175, 0.377) , rgba(61, 39, 39, 0.432)) , 
+    url('/img/pexels-yan-krukov-7234513.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -19rem;
+    margin-bottom: -3rem;
+}
+.tutorials-image__text a{
+    margin-top: 17rem;
+    background-color: #51524985;
+    border: 2px solid #0f11111e;
+    color: #b3bbae;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.footer{
+    background-color: rgb(182, 161, 141);
+    height: 400px;
+    margin-top: -6rem;
+    text-align: center;
+    padding-top: 5rem;
+    clip-path: polygon(50% 19%, 100% 0, 100% 100%, 101% 100%, 100% 100%, 50% 100%, 0 100%, 0 0);
+}
+.contact a {
+    color: #4b3d33;
+    display: inline-block;
+    margin: 1rem;
+    text-decoration: none;
+    
+}
